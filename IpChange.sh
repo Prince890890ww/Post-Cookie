@@ -9,7 +9,7 @@ echo ""
 # 1️⃣ Proxy File Check
 # -------------------------------
 PROXY_FILE="proxy.txt"
-INTERVAL=1  # har 15 sec me proxy change hoga
+INTERVAL=80  # har 15 sec me proxy change hoga
 
 if [[ ! -f "$PROXY_FILE" ]]; then
     echo "❌ Proxy list file ($PROXY_FILE) not found!"
